@@ -1,12 +1,8 @@
-import React from "react";
-import Link from 'next/link'
-import { introvert } from "../public/images/exporter";
+import React from 'react'
+
 
 export default function Home() {
-  console.log(introvert.src)
   return (
-    <div className="">
-    Home
-    </div>
-
-  )}
+    <div><Home/></div>
+  )
+}
